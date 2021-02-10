@@ -1,0 +1,130 @@
+/* 
+    Created on : 15 dic. 2020, 15:59:13
+    Author     : arielrubi
+*/
+body, html{ 
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.fondo-gracias{ 
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% !important; 
+}
+.logo{
+    width: 300px;
+    margin-top: 10rem!important;
+    margin-bottom: 4rem!important;
+} 
+.img-texto{ 
+    width: 500px; 
+}
+.img-persona{ 
+    width: 700px; 
+} 
+.formulario label.info{
+    font-size: 12px; 
+} 
+.text-informacion-req{
+    color: #ced4da!important;
+}  
+.form-control{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 50px;
+    background: #ced4da;
+    color:#fff;
+}  
+.principal{
+    height: 945px;
+}
+.ondulado{
+    border-radius: 150px 0px 0px 0px;
+    background: #fff;
+}
+.btnSolicitar{
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    font-weight: 300;
+} 
+.btnSolicitar:focus, .btnSolicitar:active, .btnSolicitar:hover
+{
+    outline: 0; 
+    box-shadow: none !important;
+}
+.bg-dark{
+    background: #000 !important;
+    background-color: #000 !important;
+}
+#emailHelp, #emailHelp1{
+    font-weight: bold;
+}  
+.exito-gracias{
+    color:#005cb9;
+}
+.color-naranja{
+    color:#f4b223;
+    font-weight: 700;  
+    font-size: 26px;
+}
+.texto-gracias{
+    font-size: 2em;
+}
+@media only screen and (max-width: 1500px){ 
+    .principal{
+        height: 840px;
+    } 
+}  
+@media only screen and (max-width: 1025px){
+    .img-texto {
+        width: 475px;
+    }
+    .img-persona {
+        width: 625px;
+    }
+    .principal {
+        height: 768px;
+    }
+}
+@media only screen and (max-width: 825px){
+    .ondulado {
+        border-radius: 0px 0px 0px 0px; 
+    }
+    .logo { 
+        margin-top: 3rem!important; 
+    }
+}
+@media only screen and (max-width: 768px){
+    .fondo-gracias{ 
+        background-image: url("../img/fondo-cel.png"); 
+    }
+    .img-persona {
+        width: 360px;
+    }  
+    .img-texto{
+        width: 300px;
+    }
+    .principal {
+        height: 400px;
+    }
+    .ondulado {
+        border-radius: 0px 0px 0px 0px; 
+    }
+    .logo { 
+        margin-top: 4rem!important;
+        margin-bottom: 3rem!important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .principal {
+        height: 350px;
+    }
+    .img-texto {
+        width: 270px;
+    }
+    .img-persona {
+        width: 300px;
+    }
+}
