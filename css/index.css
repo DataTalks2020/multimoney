@@ -72,6 +72,24 @@ body, html{
 .texto-gracias{
     font-size: 2em;
 }
+.terminos, .requisitos{
+    color:#000;
+}
+.terminos{
+    font-size: 11px;
+}
+.requisitos{
+    text-align: left;
+}
+.requisitos h5{
+    font-size: 17px;
+}
+.requisitos ul li{
+    font-size: 12px;
+}
+.requisitos ul{
+    margin-left: -20px;
+}
 @media only screen and (max-width: 1500px){ 
     .principal{
         height: 840px;
